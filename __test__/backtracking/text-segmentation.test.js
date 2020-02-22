@@ -1,4 +1,4 @@
-const segmentation = require("../../lib/backtracking/word-segmentation");
+const segmentation = require("../../lib/backtracking/text-segmentation");
 
 const mainDictionary = new Set();
 mainDictionary.add("both");
