@@ -1,8 +1,8 @@
 const subsets = require("../../lib/backtracking/subsets-with-sum");
 
 test("correct subset sum", () => {
-    expect(subsets.findAllSubsetsWithSum([8, 6, 7, 5, 3, 10, 9], 15)).
-    toStrictEqual([[8, 7], [6, 9], [7, 5, 3], [5, 10]]);
+    expect(subsets.findAllSubsetsWithSum([8, 6, 7, 5, 3, 10, 9], 15))
+        .toStrictEqual([[8, 7], [6, 9], [7, 5, 3], [5, 10]]);
 });
 
 test("correct subset sum for not found value", () => {
