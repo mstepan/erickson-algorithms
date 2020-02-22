@@ -8,3 +8,11 @@ test("LIS normal case", () => {
         .toStrictEqual([3, 4, 5, 6, 8, 9,]);
 
 });
+
+test("LIS with single element should return single element", () => {
+    expect(lis.findLongestIncreasedSub([3])).toStrictEqual([3]);
+});
+
+test("LIS for empty array should return empty sequence", () => {
+    expect(lis.findLongestIncreasedSub([])).toStrictEqual([]);
+});
