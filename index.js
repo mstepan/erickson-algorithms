@@ -1,6 +1,11 @@
+"use strict";
+
 const main = () => {
-    console.log("Min done...")
+
+
+    console.log("main done...")
 };
+
 
 main();
 
